@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+<bean id="IocInfo" class="com.xsd.ioc.model.IocInfo">
+<property name="name" value="ioc"></property>
+<property name="type" value="com.xsd.ioc.model.IocInfo"></property>
+</bean>
+
+<bean id="IocService" class="com.xsd.ioc.service.IocService">
+<property ref="IocInfo"></property>
+</bean>
+</beans>
