@@ -10,7 +10,11 @@ import java.util.List;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-
+/**
+ * 核心类
+ * @author wh
+ *
+ */
 public class XmlClassPathSpringIoc implements ApplocaltionIoc
 {
 	private HashMap<String, Object> map = new HashMap<String, Object>();
